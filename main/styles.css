@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar-wrapper{
+    background-color: rgb(14 165 233);
+    height:100vh
+}
+.grid{
+    display:grid;
+    grid-template-columns: 20% 80%;
+}
+.main-content-wrapper{
+    display: grid;
+    background-color: white;
+    grid-template-rows:30% 70%;
+}
+.comments{
+    background-color: rgb(229 231 235);
+}
+.nav-wrapper{
+    display:inline-block
+}
