@@ -17,7 +17,7 @@
 .main-content-wrapper{
     display: grid;
     background-color: white;
-    grid-template-rows:30% 70%;
+    grid-template-rows:25% 75%;
 }
 .comments{
     background-color: rgb(229 231 235);
@@ -56,7 +56,7 @@
 .search-bar{
     width:60%;
     margin-top:10px;
-    height:20px;
+    height:25px;
     border-radius:20px;
     margin-left:20px;
     background-color: rgb(226 232 240);
@@ -82,6 +82,33 @@ h6{
 }
 .bottom-of-top{
     display:flex;
+    font-family: 'Roboto', sans-serif;
+    margin-left:4%;
+}
+.text-wrapper-mike{
+    margin-left:20px;
+    position:relative;
+    margin-top:30px;
+}
+.intro-p{
+    font-size:20px;
+}
+.intro-h3{
+    font-size:25px;
+}
+.button-wrapper{
     position: relative;
-    margin-top:50px;
+    left:35%;
+}
+.new,.upload,.share{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0ea5e9;
+    border:none;
+    border-radius:20px;
+    width:100px;
+    height:40px;
+    color:white;
+    margin-right:10px;
+    font-size:17px;
+    margin-top:45px;
 }
