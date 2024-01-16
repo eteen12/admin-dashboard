@@ -48,3 +48,40 @@
 .nav-h2{
     margin-left:10px;
 }
+.top-bar{
+    display: flex;
+    margin-left:30px;
+    margin-top:20px;
+}
+.search-bar{
+    width:60%;
+    margin-top:10px;
+    height:20px;
+    border-radius:20px;
+    margin-left:20px;
+    background-color: rgb(226 232 240);
+    border:none;
+}
+.search-wrapper .material-symbols-outlined.search{
+    margin-top:10px;
+    
+}
+.material-symbols-outlined.notifications{
+    margin-left:10%;
+    font-size:25px;
+    margin-top:12px;
+}
+.prof-pic{
+    margin-left:2%;
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    margin-left:4%;
+    margin-top:18px;
+}
+.bottom-of-top{
+    display:flex;
+    position: relative;
+    margin-top:50px;
+}
